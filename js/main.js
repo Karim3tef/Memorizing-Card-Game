@@ -126,7 +126,6 @@ $(function(){
 
     var orderRange = Array.from(Array(blocks.length).keys());
     shuffel(orderRange);
-    console.log(orderRange);
 
     blocks.forEach((blocks , index)=>{
         blocks.style.order = orderRange[index];
