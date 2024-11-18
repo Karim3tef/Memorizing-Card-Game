@@ -135,6 +135,11 @@ html,body {
     left: 0;
     top: 0;
 }
+.front-card img {
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+}
 
 .fl-right {
     float: right;
